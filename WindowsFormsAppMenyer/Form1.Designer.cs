@@ -29,31 +29,21 @@
         private void InitializeComponent()
         {
             this.mnuArkiv = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.lblTriangelArea = new System.Windows.Forms.Label();
             this.txtBasen = new System.Windows.Forms.TextBox();
             this.lblBasen = new System.Windows.Forms.Label();
             this.lblHojden = new System.Windows.Forms.Label();
             this.txtHojden = new System.Windows.Forms.TextBox();
             this.btnBerakna = new System.Windows.Forms.Button();
-            this.mnuArkiv.SuspendLayout();
             this.SuspendLayout();
             // 
             // mnuArkiv
             // 
-            this.mnuArkiv.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1});
             this.mnuArkiv.Location = new System.Drawing.Point(0, 0);
             this.mnuArkiv.Name = "mnuArkiv";
             this.mnuArkiv.Size = new System.Drawing.Size(800, 24);
             this.mnuArkiv.TabIndex = 0;
             this.mnuArkiv.Text = "menuStrip1";
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(141, 20);
-            this.toolStripMenuItem1.Text = "toolStripMenuArkivExit";
             // 
             // lblTriangelArea
             // 
@@ -124,8 +114,6 @@
             this.MainMenuStrip = this.mnuArkiv;
             this.Name = "frmTriangelarea";
             this.Text = "Triangelarea";
-            this.mnuArkiv.ResumeLayout(false);
-            this.mnuArkiv.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -134,7 +122,6 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip mnuArkiv;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.Label lblTriangelArea;
         private System.Windows.Forms.TextBox txtBasen;
         private System.Windows.Forms.Label lblBasen;
